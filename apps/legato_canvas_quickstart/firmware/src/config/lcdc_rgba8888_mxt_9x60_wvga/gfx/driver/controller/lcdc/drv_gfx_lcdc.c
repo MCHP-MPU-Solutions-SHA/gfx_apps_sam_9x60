@@ -63,7 +63,7 @@
 
 #define PIXEL_CLOCK_DIV 7
 #define LCDC_OUTPUT_COLOR_MODE LCDC_OUTPUT_COLOR_MODE_24BPP
-#define LCDC_DISPLAY_GUARD_NUM_FRAMES 30
+#define LCDC_DISPLAY_GUARD_NUM_FRAMES 0
 #define LCDC_SYNC_EDGE LCDC_SYNC_EDGE_FIRST
 #define LCDC_PWM_POLARITY LCDC_POLARITY_POSITIVE
 #define GFX_LCDC_BACKGROUND_COLOR 0xffffffff
@@ -368,11 +368,11 @@ gfxResult DRV_LCDC_Initialize()
     LCDC_SetDISPSignalEnable(true);
     
     //7. Wait for power signal to be activated
-    LCDC_WaitForDISPSignal();
+    //LCDC_WaitForDISPSignal();
     
     //8. Enable the backlight
-    LCDC_WaitForSyncInProgress();
-    LCDC_SetPWMEnable(true);
+    //LCDC_WaitForSyncInProgress();
+    //LCDC_SetPWMEnable(true);
 
     drvLayer[0].desc = &channelDesc0;
     drvLayer[1].desc = &channelDesc1;
