@@ -216,6 +216,10 @@
             <logicalFolder name="f2" displayName="clk" projectFiles="true">
               <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/peripheral/clk/plib_clk.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="f8" displayName="dbgu" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/peripheral/dbgu/plib_dbgu_common.h</itemPath>
+              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/peripheral/dbgu/plib_dbgu.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="f7" displayName="flexcom" projectFiles="true">
               <logicalFolder name="f1" displayName="twi" projectFiles="true">
                 <logicalFolder name="f1" displayName="master" projectFiles="true">
@@ -683,6 +687,9 @@
             <logicalFolder name="f2" displayName="clk" projectFiles="true">
               <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/peripheral/clk/plib_clk.c</itemPath>
             </logicalFolder>
+            <logicalFolder name="f8" displayName="dbgu" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/peripheral/dbgu/plib_dbgu.c</itemPath>
+            </logicalFolder>
             <logicalFolder name="f7" displayName="flexcom" projectFiles="true">
               <logicalFolder name="f1" displayName="twi" projectFiles="true">
                 <logicalFolder name="f1" displayName="master" projectFiles="true">
@@ -724,7 +731,6 @@
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/initialization.c</itemPath>
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/interrupts.c</itemPath>
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/cstartup.S</itemPath>
-          <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/vectortrap.s</itemPath>
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/tasks.c</itemPath>
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/fault_handlers.c</itemPath>
         </logicalFolder>
@@ -741,6 +747,7 @@
                      projectFiles="true">
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/BSP_SAM_9X60_Evaluation_Kit.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/core.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/dbgu.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/dfp.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/drv_i2c.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/flexcom0.yml</itemPath>
@@ -756,6 +763,7 @@
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/le_gfx_lcdc.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/project.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/stdio.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/sys_input.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/sys_time.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/tc0.yml</itemPath>
@@ -763,6 +771,7 @@
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/harmony-manifest-success.yml</itemPath>
       <itemPath>legato_canvas_quickstart_9x60_ek_wvga.mc3</itemPath>
+      <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -778,7 +787,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>jlink</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.20</languageToolchainVersion>
+        <languageToolchainVersion>4.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

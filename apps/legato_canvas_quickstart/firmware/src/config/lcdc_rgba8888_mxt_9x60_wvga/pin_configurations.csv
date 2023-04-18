@@ -31,7 +31,7 @@ F8,PA24,,Available,In,,,,,,,,
 G1,PA22,,Available,In,,,,,,,,
 G2,PA30,,Available,In,,,,,,,,
 G6,PA21,,Available,In,,,,,,,,
-G8,PA9,,Available,In,,,,,,,,
+G8,PA9,,DBGU_DRXD,n/a,n/a,No,Disabled,No,No,Disabled,No,Low
 H1,PA25,,Available,In,,,,,,,,
 H2,PA27,,Available,In,,,,,,,,
 H3,PA29,,Available,In,,,,,,,,
@@ -57,7 +57,7 @@ K11,PD11,,Available,In,,,,,,,,
 K15,PD8,,Available,In,,,,,,,,
 K16,PD6,,Available,In,,,,,,,,
 L1,PA12,,Available,In,,,,,,,,
-L2,PA10,,Available,In,,,,,,,,
+L2,PA10,,DBGU_DTXD,n/a,n/a,No,Disabled,No,No,Disabled,No,Low
 L3,PA3,,Available,In,,,,,,,,
 L4,PA5,,Available,In,,,,,,,,
 L5,PC4,,LCDC_LCDDAT4,n/a,n/a,No,Disabled,No,No,Disabled,No,Low
