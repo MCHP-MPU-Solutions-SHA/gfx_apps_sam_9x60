@@ -26,7 +26,7 @@ files:
   physicalPath: gfx/driver/controller/lcdc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6DB5A2C885E12F4B8FDA3BF5889F3ED9
+  userChecksum: 5C4046508263806C0A0ED2A7A9ABA8E5
 - generatedChecksum: AE64199B660AA4499B58FCA9D9AD5792
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga/driver/i2c
   name: drv_i2c.c
@@ -117,14 +117,14 @@ files:
   physicalPath: gfx/legato/generated
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9E67EC9925CC30568A30DD58099585B2
-- generatedChecksum: 80018A93C3CE132775AE05E31D1F8B14
+  userChecksum: 68F0C5516CE17C679A4D488C28084E75
+- generatedChecksum: C5B0FF5B87174C6415F407623C45BA98
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga/gfx/legato/generated/image
   name: le_gen_images.c
   physicalPath: gfx/legato/generated/image
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 80018A93C3CE132775AE05E31D1F8B14
+  userChecksum: C5B0FF5B87174C6415F407623C45BA98
 - generatedChecksum: 4A0B00DF20738414078086EB7AEFCC30
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga/gfx/legato/generated
   name: le_gen_init.c
