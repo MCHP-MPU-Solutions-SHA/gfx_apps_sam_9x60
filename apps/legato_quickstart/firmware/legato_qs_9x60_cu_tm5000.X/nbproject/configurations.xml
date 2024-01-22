@@ -933,6 +933,7 @@
       <itemPath>../src/syscalls.c</itemPath>
       <itemPath>../src/t_640x270.h</itemPath>
       <itemPath>../src/t_800x360.h</itemPath>
+      <itemPath>../src/h3_string.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -1072,7 +1073,7 @@
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
         <property key="use-indirect-calls" value="false"/>
-        <appendMe value="-I&quot;../src/third_party/jpeg-9e&quot;"/>
+        <appendMe value="-I&quot;../src/third_party/jpeg-9e&quot; -Dmemset=h3_memset -Dmemcpy=h3_memcpy"/>
       </C32>
       <C32-AR>
         <property key="additional-options-chop-files" value="false"/>
