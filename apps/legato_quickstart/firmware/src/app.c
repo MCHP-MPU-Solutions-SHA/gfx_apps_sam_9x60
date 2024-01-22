@@ -27,6 +27,7 @@
 // *****************************************************************************
 // *****************************************************************************
 
+#include <stdio.h>
 #include "app.h"
 
 // *****************************************************************************
@@ -49,6 +50,24 @@
 
     Application strings and buffers are be defined outside this structure.
 */
+
+#define MAX_WIDTH   800
+#define MAX_HEIGHT  600
+
+char buf_yuv[MAX_WIDTH * MAX_HEIGHT / 4 * 6]; // YUV420P
+char buf_rgb[MAX_WIDTH * MAX_HEIGHT * 3]; // RGB888
+
+typedef struct
+{
+  unsigned char *pic;
+  unsigned int *len;
+} pic_desc;
+
+#include "t_800x360.h"
+
+extern int djpeg_yuv (char *p_jpg, int jpg_len, char *p_yuv, int *p_width, int *p_height);
+extern int djpeg_rgb (char *p_jpg, int jpg_len, char *p_rgb, int *p_width, int *p_height);
+
 
 APP_DATA appData;
 
@@ -109,6 +128,18 @@ void APP_Initialize ( void )
 
 void APP_Tasks ( void )
 {
+	int width, height;
+	int ret;
+
+	//while (1)
+	{
+	width  = MAX_WIDTH;
+	height = MAX_HEIGHT;
+	ret = djpeg_rgb((char *)__t_jpg, __t_jpg_len, buf_rgb, &width, &height);
+	//ret = djpeg_yuv((char *)__t_jpg, __t_jpg_len, buf_yuv, &width, &height);
+	//printf("width=%d, height=%d ret=%d\n\r", width, height, ret);
+	printf("R%d\n\r", ret);
+	}
 
     /* Check the application's current state. */
     switch ( appData.state )
