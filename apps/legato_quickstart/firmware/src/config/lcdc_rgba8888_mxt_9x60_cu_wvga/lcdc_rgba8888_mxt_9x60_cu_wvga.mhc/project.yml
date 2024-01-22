@@ -48,13 +48,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 37780F17759DED907A0F36E28BFB3136
-- generatedChecksum: BFD65DAAC369B1DA6D3BEE61A83CA064
+- generatedChecksum: B9E4256457E1420FA854DACD85520462
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/driver/input
   name: drv_maxtouch.c
   physicalPath: driver/input
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BFD65DAAC369B1DA6D3BEE61A83CA064
+  userChecksum: B9E4256457E1420FA854DACD85520462
 - generatedChecksum: B2428EF8CAFD595BE67DA79F97846644
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga
   name: fault_handlers.c
@@ -90,13 +90,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 474DA0FD46CB13A763619456658DAFB3
-- generatedChecksum: 14AA559D6165712C6BD18128C5A3CFBB
+- generatedChecksum: 682ECBAB999C4E96C3D6EE13C986E30A
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/generated/font
   name: le_gen_fonts.c
   physicalPath: gfx/legato/generated/font
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 14AA559D6165712C6BD18128C5A3CFBB
+  userChecksum: 682ECBAB999C4E96C3D6EE13C986E30A
 - generatedChecksum: 2D48DB8AD17CFF23FA87412540899BA2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/generated
   name: le_gen_globalpalette.c
@@ -188,13 +188,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 5E9BA6B6BE8679E6B74CD26D3C79755B
-- generatedChecksum: 87500CF24B76E0FEA66F73D98B028F61
+- generatedChecksum: C94DB9C0F71D5E140BB3EABD55CEA72F
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/renderer
   name: legato_draw.c
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 87500CF24B76E0FEA66F73D98B028F61
+  userChecksum: C94DB9C0F71D5E140BB3EABD55CEA72F
 - generatedChecksum: 320DA1F92C9D5CA5551F59C35822B02F
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/renderer
   name: legato_draw_arc.c
@@ -265,13 +265,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: BEAE49ADD38336EAF594CC0F390A7856
-- generatedChecksum: A786A26B2374CD170F7D1EDF3ED2DC0E
+- generatedChecksum: 0E7613B9277803C5D572D8CABD6B84EC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/renderer
   name: legato_gpu.c
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A786A26B2374CD170F7D1EDF3ED2DC0E
+  userChecksum: 0E7613B9277803C5D572D8CABD6B84EC
 - generatedChecksum: AD1126687188EBF0194B8D83099D80DC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/image
   name: legato_image.c
@@ -314,13 +314,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 300343E4FD3A2BA1F52C2586128F2865
-- generatedChecksum: CD7828DFD63AF711B3B4ADA1917E7603
+- generatedChecksum: D2715C60F34B097AD279A6F644DDD21C
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/image/mono
   name: legato_imagedecoder_mono_read_stream.c
   physicalPath: gfx/legato/image/mono
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CD7828DFD63AF711B3B4ADA1917E7603
+  userChecksum: D2715C60F34B097AD279A6F644DDD21C
 - generatedChecksum: 7EF8AA9D369872F32F54ECD55D02BDF1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/image/png
   name: legato_imagedecoder_png.c
@@ -447,13 +447,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 166EFFCA3A6ED925F2EECB58B757BC83
-- generatedChecksum: 515E5CF2FBDF1AECE8D0D4B1ECFDF13F
+- generatedChecksum: 4992EBFA2E1DB92484AB311D1E29C136
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/common
   name: legato_math.c
   physicalPath: gfx/legato/common
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 515E5CF2FBDF1AECE8D0D4B1ECFDF13F
+  userChecksum: 4992EBFA2E1DB92484AB311D1E29C136
 - generatedChecksum: 2519CF0D9FCF093CCEBC1635E3AC10B2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/memory
   name: legato_memory.c
@@ -523,7 +523,7 @@ files:
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F100A20575052013CCB66DC18FADB062
+  userChecksum: 818FB95FA2FF040CF9FCB3AE6DE949E8
 - generatedChecksum: 1B1C675C15913551534158E8049B7FA4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/core
   name: legato_scheme.c
@@ -552,13 +552,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DC6DCED86711F7CCEC61E1C0D33F5211
-- generatedChecksum: 81BCB683F1A4C58F8DB0B6503D8DD079
+- generatedChecksum: DD16EF78892D0CA445DCFE8C1F23399E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/string
   name: legato_string_renderer.c
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 81BCB683F1A4C58F8DB0B6503D8DD079
+  userChecksum: DD16EF78892D0CA445DCFE8C1F23399E
 - generatedChecksum: 9ED6E8895EC3C6AC754BC7A75E336A67
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/string
   name: legato_string_renderer_stream.c
@@ -601,13 +601,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: CF37491BC11F37C075F028C989A6C036
-- generatedChecksum: DA53DB831B829D846A9582FAB529717A
+- generatedChecksum: 928C15F139F0267E4A98724E5391477D
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget
   name: legato_widget.c
   physicalPath: gfx/legato/widget
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DA53DB831B829D846A9582FAB529717A
+  userChecksum: 928C15F139F0267E4A98724E5391477D
 - generatedChecksum: 52886051D3C454E94E7C3CE91E5C7C2E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/arc
   name: legato_widget_arc.c
@@ -804,13 +804,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 59CA977AFD703D93FADBBFC309001323
-- generatedChecksum: 8ED5949406A61D1AA68A491B1E4952AB
+- generatedChecksum: 8FE009EF565882F5D0737D249CE1B239
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/keypad
   name: legato_widget_keypad.c
   physicalPath: gfx/legato/widget/keypad
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8ED5949406A61D1AA68A491B1E4952AB
+  userChecksum: 8FE009EF565882F5D0737D249CE1B239
 - generatedChecksum: 573D18116E2334CA40841D00E2491251
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/keypad
   name: legato_widget_keypad_skin_classic.c
@@ -839,13 +839,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: FA11AAFB6E69F0AB0A3AABBFFD792E55
-- generatedChecksum: A1126F465B44A3C7F0F33984C70FB213
+- generatedChecksum: BAE5BF2EFFDA93D64C481C22CFF04673
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/linegraph
   name: legato_widget_line_graph.c
   physicalPath: gfx/legato/widget/linegraph
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A1126F465B44A3C7F0F33984C70FB213
+  userChecksum: BAE5BF2EFFDA93D64C481C22CFF04673
 - generatedChecksum: 0515F647B0B5DD88BCC078743F2C294F
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/linegraph
   name: legato_widget_line_graph_skin_classic.c
@@ -860,13 +860,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DA5CF6C9C72D3A934BE3C147C0072E61
-- generatedChecksum: FEFDD1F1F57D1F20C9AF905848ABDDF2
+- generatedChecksum: 9B6DBCFE1A1FF5E4D31DF8A432D02F78
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/list
   name: legato_widget_list.c
   physicalPath: gfx/legato/widget/list
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FEFDD1F1F57D1F20C9AF905848ABDDF2
+  userChecksum: 9B6DBCFE1A1FF5E4D31DF8A432D02F78
 - generatedChecksum: 23151E67F4E4C870B6BFA41AB9FCCEBB
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/list
   name: legato_widget_list_skin_classic.c
@@ -881,13 +881,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 52CF462B60A17F704E92E8086CFD1021
-- generatedChecksum: 7130ADBBE5F8CEAD079F0C5FEB07562A
+- generatedChecksum: 1DE1775E2B55B32552DC44301D8ED876
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/listwheel
   name: legato_widget_listwheel_skin_classic.c
   physicalPath: gfx/legato/widget/listwheel
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7130ADBBE5F8CEAD079F0C5FEB07562A
+  userChecksum: 1DE1775E2B55B32552DC44301D8ED876
 - generatedChecksum: 1893826CB21C030AFCCF94E846843DF6
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/piechart
   name: legato_widget_pie_chart.c
@@ -930,6 +930,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 0DAAB0013266070071BFBF96367CDC11
+- generatedChecksum: 9B4990492BD2622C36F6B7B9C75183B8
+  logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/radialmenu
+  name: legato_widget_radial_menu_state.c
+  physicalPath: gfx/legato/widget/radialmenu
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 9B4990492BD2622C36F6B7B9C75183B8
 - generatedChecksum: A25F4F34BC05506BE42350DF63769888
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/radiobutton
   name: legato_widget_radiobutton.c
@@ -979,13 +986,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 315F7C6CCE2712B050D71F9FF215F929
-- generatedChecksum: B2C287A18B35F36284DCB26FE81C5E36
+- generatedChecksum: C6839D61E3EE2BAA104198F32D57DF01
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget
   name: legato_widget_skin_classic_common.c
   physicalPath: gfx/legato/widget
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B2C287A18B35F36284DCB26FE81C5E36
+  userChecksum: C6839D61E3EE2BAA104198F32D57DF01
 - generatedChecksum: 3946E405DCAECDBF7918F482D2489C72
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/slider
   name: legato_widget_slider.c
@@ -993,13 +1000,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 3946E405DCAECDBF7918F482D2489C72
-- generatedChecksum: D7D66FE009CD8F87DFD88453B1555E14
+- generatedChecksum: 52F028B5B093A5A6F8DF53080903AFF2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/slider
   name: legato_widget_slider_skin_classic.c
   physicalPath: gfx/legato/widget/slider
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D7D66FE009CD8F87DFD88453B1555E14
+  userChecksum: 52F028B5B093A5A6F8DF53080903AFF2
 - generatedChecksum: E7755DD8F79D2501AB42A9B18C77D7C8
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/textfield
   name: legato_widget_textfield.c
@@ -1679,13 +1686,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 295D1BDE726B062609ECDD25D6FE5C01
-- generatedChecksum: 910689A680D9849FE7E3337529855BDF
+- generatedChecksum: 7EE399C5EE3333CC7BFA3B66C24C0010
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/font
   name: legato_font.h
   physicalPath: gfx/legato/font
   security: NON_SECURE
   type: HEADER
-  userChecksum: 910689A680D9849FE7E3337529855BDF
+  userChecksum: 7EE399C5EE3333CC7BFA3B66C24C0010
 - generatedChecksum: 54DD0ABB60B42AC740C44253B1AE5D66
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/renderer
   name: legato_gpu.h
@@ -1735,13 +1742,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 7ADDAC9059A85F81FAFFBF0953F115C2
-- generatedChecksum: B81AA9C48BB7A1416D0D25EC35D5A2AA
+- generatedChecksum: D77947FD1E56146761E978697F565AB6
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/image/raw
   name: legato_imagedecoder_raw.h
   physicalPath: gfx/legato/image/raw
   security: NON_SECURE
   type: HEADER
-  userChecksum: B81AA9C48BB7A1416D0D25EC35D5A2AA
+  userChecksum: D77947FD1E56146761E978697F565AB6
 - generatedChecksum: 005FBFDB4C154C326EC1A410AF97A6D2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/core
   name: legato_input.h
@@ -1882,13 +1889,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 2B26AC1B0E2EF708E481AAE7282DEC61
-- generatedChecksum: BAC405F6D8722E06A69DB1877C489FE3
+- generatedChecksum: 3D09E0D18D37D571D98B80426B202F29
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget
   name: legato_widget.h
   physicalPath: gfx/legato/widget
   security: NON_SECURE
   type: HEADER
-  userChecksum: BAC405F6D8722E06A69DB1877C489FE3
+  userChecksum: 3D09E0D18D37D571D98B80426B202F29
 - generatedChecksum: F23F04B5134068D59FC771733E417F84
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/arc
   name: legato_widget_arc.h
@@ -2071,13 +2078,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 41FE6ABD398EA3E7C9E81158C4652326
-- generatedChecksum: 90BED9F488814E692D3DF063E7F6D702
+- generatedChecksum: DD4B8668A4F13A64DCFAF4A57B8C5DD6
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget
   name: legato_widget_skin_classic_common.h
   physicalPath: gfx/legato/widget
   security: NON_SECURE
   type: HEADER
-  userChecksum: 90BED9F488814E692D3DF063E7F6D702
+  userChecksum: DD4B8668A4F13A64DCFAF4A57B8C5DD6
 - generatedChecksum: 849F9D0D40DE208D00FEF7163986FF36
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/gfx/legato/widget/slider
   name: legato_widget_slider.h

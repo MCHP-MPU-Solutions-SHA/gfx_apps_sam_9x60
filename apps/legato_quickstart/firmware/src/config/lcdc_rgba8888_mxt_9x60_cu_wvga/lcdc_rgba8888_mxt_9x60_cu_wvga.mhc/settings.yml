@@ -5,7 +5,7 @@ frameworkPath: C:\harmony3_release
 processor: SAM9X60D1G
 projectName: legato_qs_9x60_cu_wvga
 settings:
-  PackageFilter: aerospace;audio;azure-rtos-threadx;azure_rtos;bsp;core;crypto;csp;Devices;dev_packs;gfx;gfx_apps_pic32mz_da;gfx_apps_sam_d5x_e5x;gfx_apps_sam_e70_s70_v70_v71;gfx_apps_sam_l22;harmony-services;net;quick_docs;touch;usb
+  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_9x7;core_apps_sam_a5d2;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;Devices;dev_packs;gfx;gfx_apps_sam_9x60;gfx_apps_sam_a5d2;harmony-services;quick_docs;touch
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
