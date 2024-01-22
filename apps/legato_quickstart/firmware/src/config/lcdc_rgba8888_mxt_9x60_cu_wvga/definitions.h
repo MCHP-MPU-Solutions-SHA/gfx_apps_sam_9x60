@@ -48,6 +48,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
+#include <stdio.h>
 #include "gfx/legato/generated/le_gen_harmony.h"
 #include "peripheral/mmu/plib_mmu.h"
 #include "peripheral/clk/plib_clk.h"
@@ -61,6 +62,7 @@
 #include "system/time/sys_time.h"
 #include "system/input/sys_input.h"
 #include "gfx/driver/processor/gfx2d/drv_gfx2d.h"
+#include "peripheral/dbgu/plib_dbgu.h"
 #include "bsp/bsp.h"
 #include "driver/input/drv_maxtouch.h"
 #include "system/int/sys_int.h"

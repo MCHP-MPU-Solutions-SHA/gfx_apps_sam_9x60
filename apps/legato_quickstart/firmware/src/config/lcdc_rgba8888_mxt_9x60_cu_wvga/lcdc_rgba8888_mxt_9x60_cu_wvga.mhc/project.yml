@@ -69,13 +69,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 395CB5E473B76326871D60F6D31F648D
-- generatedChecksum: 121A405C2FF07303F4AC6C05AFC2CDC5
+- generatedChecksum: DE77690CCE2BC4A25C0E68DC9F541C62
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 121A405C2FF07303F4AC6C05AFC2CDC5
+  userChecksum: DE77690CCE2BC4A25C0E68DC9F541C62
 - generatedChecksum: 011183034BC02DD48AF596086FDB9BF9
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga
   name: interrupts.c
@@ -1070,20 +1070,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: A6A367FF2B5C7CB7E2C5714E3B43F592
-- generatedChecksum: 28E6AC1520D83DD4124DCE33451E972A
+- generatedChecksum: 8E80E04B7CEABA73B0FDAF47E61D3D61
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/clk
   name: plib_clk.c
   physicalPath: peripheral/clk
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 28E6AC1520D83DD4124DCE33451E972A
+  userChecksum: 8E80E04B7CEABA73B0FDAF47E61D3D61
+- generatedChecksum: F96BA1DC46F0BB786D296A0EFFE5677E
+  logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/dbgu
+  name: plib_dbgu.c
+  physicalPath: peripheral/dbgu
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: F96BA1DC46F0BB786D296A0EFFE5677E
 - generatedChecksum: 54440F4BCE7979D21E2F9B8CEC5D1880
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/flexcom/twi/master
   name: plib_flexcom6_twi_master.c
   physicalPath: peripheral/flexcom/twi/master
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 54440F4BCE7979D21E2F9B8CEC5D1880
+  userChecksum: 788DF2B76BC9A3186C4DC4C0E57B0FE0
 - generatedChecksum: 8920B42DF213893D7D3BF22445EF94B2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/gfx2d
   name: plib_gfx2d.c
@@ -1105,13 +1112,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 376D5CC28D9D562B5406659FCC28C9C2
-- generatedChecksum: EEA45D17D945EE403C4A4ADB04A65260
+- generatedChecksum: 1BC538EC130A7D3543F7F83A114AE36C
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/pio
   name: plib_pio.c
   physicalPath: peripheral/pio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: EEA45D17D945EE403C4A4ADB04A65260
+  userChecksum: 1BC538EC130A7D3543F7F83A114AE36C
 - generatedChecksum: CD83B03D35F7FEC31B9F4BDD26AF0CDC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/tc
   name: plib_tc0.c
@@ -1161,13 +1168,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 963E40587FE29E9FF97E3A4B5FC79B4D
-- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
+- generatedChecksum: D1B003B56EF14497B2105B0498B06FFD
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 71352EF41F6688AD8408E42970B50B66
+  userChecksum: D1B003B56EF14497B2105B0498B06FFD
 - generatedChecksum: 273C441C353A520C9C97762E4E37F65A
   logicalPath: packs/SAM9X60D1G_DFP/component
   name: adc.h
@@ -1301,13 +1308,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 1BA26B62D52A67FA85B0AB56CA60984E
-- generatedChecksum: A7BAA0905782C42CB22BAC433E01CD9F
+- generatedChecksum: A10FE73B1BF1E167E3004603537400D2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: A7BAA0905782C42CB22BAC433E01CD9F
+  userChecksum: A10FE73B1BF1E167E3004603537400D2
 - generatedChecksum: 5BD5A2B8BBDE57364D24FAD9C179880A
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga
   name: device.h
@@ -2260,6 +2267,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A8C5DBCE5B68F9E4B9078E54DC2B2FEA
+- generatedChecksum: D1C155A7847587594E4DCF8CD1F991DB
+  logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/dbgu
+  name: plib_dbgu.h
+  physicalPath: peripheral/dbgu
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: D1C155A7847587594E4DCF8CD1F991DB
+- generatedChecksum: 06E8E08E593F2C4AA01DAE7161B43F1E
+  logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/dbgu
+  name: plib_dbgu_common.h
+  physicalPath: peripheral/dbgu
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 06E8E08E593F2C4AA01DAE7161B43F1E
 - generatedChecksum: D8283630EAC0C8704073C6F20C17BA9A
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/flexcom/twi/master
   name: plib_flexcom6_twi_master.h
@@ -2827,13 +2848,13 @@ files:
   security: NON_SECURE
   type: LINKER
   userChecksum: BB9A8C2137AF6726DF6EB40226656BC8
-- generatedChecksum: F42FD693D04DF6076C3599790D3D4841
+- generatedChecksum: F3DC7875ED7CBE3C7EAE2A3D8541F3E8
   logicalPath: ''
   name: pin_configurations.csv
   physicalPath: ''
   security: NON_SECURE
   type: IMPORTANT
-  userChecksum: F42FD693D04DF6076C3599790D3D4841
+  userChecksum: F3DC7875ED7CBE3C7EAE2A3D8541F3E8
 format_version: v1.0
 libraries: []
 settings:

@@ -253,6 +253,26 @@ static void SYSC_Disable( void )
 }
 
 
+/*******************************************************************************
+  Function:
+    void STDIO_BufferModeSet ( void )
+
+  Summary:
+    Sets the buffering mode for stdin and stdout
+
+  Remarks:
+ ********************************************************************************/
+static void STDIO_BufferModeSet(void)
+{
+
+    /* Make stdin unbuffered */
+    setbuf(stdin, NULL);
+
+    /* Make stdout unbuffered */
+    setbuf(stdout, NULL);
+}
+
+
 
 
 /*******************************************************************************
@@ -271,6 +291,9 @@ void SYS_Initialize ( void* data )
     /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
 	SYSC_Disable( );
+
+    STDIO_BufferModeSet();
+
 
   
     CLK_Initialize();
@@ -292,6 +315,8 @@ void SYS_Initialize ( void* data )
     TC0_CH0_TimerInitialize(); 
      
     
+    DBGU_Initialize();
+
 	BSP_Initialize();
 
     /* Initialize I2C0 Driver Instance */
