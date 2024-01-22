@@ -1077,13 +1077,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 28E6AC1520D83DD4124DCE33451E972A
-- generatedChecksum: 869B9B6778D0936CFEF7E7A4357D6DAA
+- generatedChecksum: 54440F4BCE7979D21E2F9B8CEC5D1880
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/flexcom/twi/master
   name: plib_flexcom6_twi_master.c
   physicalPath: peripheral/flexcom/twi/master
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 869B9B6778D0936CFEF7E7A4357D6DAA
+  userChecksum: 54440F4BCE7979D21E2F9B8CEC5D1880
 - generatedChecksum: 8920B42DF213893D7D3BF22445EF94B2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/gfx2d
   name: plib_gfx2d.c
@@ -1105,13 +1105,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 376D5CC28D9D562B5406659FCC28C9C2
-- generatedChecksum: 55BDEE63CBBE2ED78C9815EF12E0DA98
+- generatedChecksum: EEA45D17D945EE403C4A4ADB04A65260
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/pio
   name: plib_pio.c
   physicalPath: peripheral/pio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 55BDEE63CBBE2ED78C9815EF12E0DA98
+  userChecksum: EEA45D17D945EE403C4A4ADB04A65260
 - generatedChecksum: CD83B03D35F7FEC31B9F4BDD26AF0CDC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/tc
   name: plib_tc0.c
@@ -1273,13 +1273,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 02E4CCA1754AE43A9C6C752006AB7520
-- generatedChecksum: F6DA4C88C3C2DA5AD26D4B86482E3315
+- generatedChecksum: AE705EAB5E90262B7A63F90DBA5B296E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga
   name: configuration.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: F6DA4C88C3C2DA5AD26D4B86482E3315
+  userChecksum: AE705EAB5E90262B7A63F90DBA5B296E
 - generatedChecksum: 8B35997040E0D61B0C62411FF7C4E9C1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_cu_wvga/peripheral/mmu
   name: cp15.h
@@ -2827,13 +2827,13 @@ files:
   security: NON_SECURE
   type: LINKER
   userChecksum: BB9A8C2137AF6726DF6EB40226656BC8
-- generatedChecksum: 841D3AA06119682D0AF8E1F4815B79A4
+- generatedChecksum: F42FD693D04DF6076C3599790D3D4841
   logicalPath: ''
   name: pin_configurations.csv
   physicalPath: ''
   security: NON_SECURE
   type: IMPORTANT
-  userChecksum: 841D3AA06119682D0AF8E1F4815B79A4
+  userChecksum: F42FD693D04DF6076C3599790D3D4841
 format_version: v1.0
 libraries: []
 settings:

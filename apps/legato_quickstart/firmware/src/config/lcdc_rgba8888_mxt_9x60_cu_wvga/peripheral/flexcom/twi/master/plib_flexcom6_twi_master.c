@@ -114,9 +114,12 @@ void FLEXCOM6_TWI_Initialize(void)
     // Set Baud rate
     FLEXCOM6_TWI_Module->FLEX_TWI_CWGR = ( FLEX_TWI_CWGR_HOLD_Msk & FLEXCOM6_TWI_Module->FLEX_TWI_CWGR) |
                                               FLEX_TWI_CWGR_BRSRCCLK_PERIPH_CLK |
-                                            ( FLEX_TWI_CWGR_CLDIV(247) |
-                                              FLEX_TWI_CWGR_CHDIV(247) |
-                                              FLEX_TWI_CWGR_CKDIV(0) );
+                                            ( FLEX_TWI_CWGR_CLDIV(249) |
+                                              FLEX_TWI_CWGR_CHDIV(249) |
+                                              FLEX_TWI_CWGR_CKDIV(2) );
+	// CUSTOM CODE - DO NOT OVERWRITE
+	FLEXCOM6_TWI_Module->FLEX_TWI_FILTR = 0x00000703;
+	// END CUSTOM CODE
 
     // Starts the transfer by clearing the transmit hold register
     FLEXCOM6_TWI_Module->FLEX_TWI_CR = FLEX_TWI_CR_THRCLR_Msk;

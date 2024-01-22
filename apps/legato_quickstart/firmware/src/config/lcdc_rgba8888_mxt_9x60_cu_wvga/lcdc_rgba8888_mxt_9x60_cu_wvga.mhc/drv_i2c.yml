@@ -54,4 +54,4 @@ children:
             children:
             - {type: Value, value: FLEXCOM6_I2C}
 - type: ElementPosition
-  attributes: {x: '225', y: '157', id: drv_i2c}
+  attributes: {x: '225', y: '158', id: drv_i2c}
