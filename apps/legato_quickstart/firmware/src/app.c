@@ -63,6 +63,8 @@ typedef struct
   unsigned int *len;
 } pic_desc;
 
+#include "t_400x180.h"
+#include "t_600x270.h"
 #include "t_800x360.h"
 
 extern int djpeg_yuv (char *p_jpg, int jpg_len, char *p_yuv, int *p_width, int *p_height);
@@ -135,8 +137,8 @@ void APP_Tasks ( void )
 	{
 	width  = MAX_WIDTH;
 	height = MAX_HEIGHT;
-	ret = djpeg_rgb((char *)__t_jpg, __t_jpg_len, buf_rgb, &width, &height);
-	//ret = djpeg_yuv((char *)__t_jpg, __t_jpg_len, buf_yuv, &width, &height);
+	ret = djpeg_rgb((char *)__t400_jpg, __t400_jpg_len, buf_rgb, &width, &height);
+	//ret = djpeg_yuv((char *)__t800_jpg, __t800_jpg_len, buf_yuv, &width, &height);
 	//printf("width=%d, height=%d ret=%d\n\r", width, height, ret);
 	printf("R%d\n\r", ret);
 	}
